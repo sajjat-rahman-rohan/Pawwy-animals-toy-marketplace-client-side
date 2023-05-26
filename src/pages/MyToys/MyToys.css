@@ -1,0 +1,23 @@
+.table {
+  border-collapse: separate;
+}
+
+.img-thumbnail {
+  height: 150px;
+}
+
+tbody h4,
+h6 {
+  margin: 0;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+td {
+  border-color: inherit;
+  border-width: 1px solid gray;
+}

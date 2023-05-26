@@ -1,0 +1,39 @@
+.modal-content {
+  background-color: transparent;
+  border: 0px;
+}
+.modal-content .btn-close {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  opacity: 0px;
+  font-size: 25px;
+  background-color: #fff;
+}
+
+.modal_video {
+  overflow: hidden;
+  width: 100%;
+  background-image: url(https://img.freepik.com/free-psd/play-text-effect_17005-1615.jpg?w=1380&t=st=1684429625~exp=1684430225~hmac=03c363b03fabebcaf2764abf1beb14147bb90fa68175a6876da96ebf3f4bcd1b);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.modal_video_overlay {
+  background: rgb(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.modal_video_overlay a {
+  font-size: 50px;
+  color: #fff !important;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .modal_video_overlay a {
+    font-size: 30px;
+  }
+}

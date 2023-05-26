@@ -1,0 +1,18 @@
+.tab-img {
+  padding: 5px;
+}
+.tab-img img {
+  /* height: 300px; */
+  width: 250px;
+}
+
+@media screen and (max-width: 320px) {
+  .tab-img {
+    padding: 20px;
+  }
+  .tab-img img {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

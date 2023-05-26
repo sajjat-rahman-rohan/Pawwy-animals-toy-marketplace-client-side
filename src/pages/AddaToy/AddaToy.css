@@ -1,0 +1,20 @@
+.add-toy input,
+.add-toy select,
+textarea {
+  padding: 10px;
+  outline: 2px solid rgb(111, 165, 149);
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+}
+
+.add-toy-btn button {
+  border: 0;
+  padding: 8px 0px;
+  border-radius: 5px;
+}
+.add-toy-btn button input {
+  font-size: 18px;
+  border: none;
+  color: darkslategray;
+}

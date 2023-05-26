@@ -1,0 +1,55 @@
+.modal-content {
+  background-color: transparent;
+  border: 0px;
+}
+.gallery_con_main .modal-content .btn-close {
+  position: absolute;
+  right: -15px;
+  top: -15px;
+  opacity: 0px;
+  background-color: #fff;
+}
+
+.gallery_part {
+  padding: 50px 0px;
+}
+
+.gallery_img {
+  position: relative;
+}
+
+.gallery_img:hover .gallery_img_overlay {
+  opacity: 1;
+  height: 100%;
+}
+.gallery_img img {
+  transition: 0.5s;
+}
+
+.gallery_img:hover img {
+  transform: scale(1.1);
+}
+
+.gallery_con {
+  overflow: hidden;
+}
+
+.gallery_img_overlay {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  background: rgb(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s;
+}
+.gallery_img_overlay a {
+  font-size: 20px;
+  color: #fff !important;
+  font-family: "Poppins-Regular";
+  cursor: pointer;
+}

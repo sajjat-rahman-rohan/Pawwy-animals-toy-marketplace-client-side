@@ -1,0 +1,15 @@
+p {
+  font-size: 14px;
+}
+
+.img img {
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (max-width: 320px) {
+  .img img {
+    height: 80px;
+    width: 80px;
+  }
+}

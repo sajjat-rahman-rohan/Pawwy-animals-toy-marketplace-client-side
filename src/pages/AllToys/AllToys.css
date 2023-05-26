@@ -1,0 +1,46 @@
+.table {
+  border-collapse: separate;
+}
+
+tbody h4,
+h6 {
+  margin: 0;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+td {
+  border-color: inherit;
+  border-width: 1px solid gray;
+}
+
+.pagination-btn {
+  margin: 50px 0px;
+  text-align: center;
+}
+
+.pagination-btn p {
+  font-size: 25px;
+}
+
+.pagination-btn button {
+  border: 1px solid gray;
+  padding: 1px 12px;
+  font-size: 22px;
+  margin: 0px 10px;
+}
+
+.pagination-btn .selected {
+  background-color: #d34191;
+  color: #fff;
+}
+
+.pagination-btn select {
+  color: #fff;
+  background: #000;
+  font-size: 20px;
+}
